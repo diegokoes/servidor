@@ -1,4 +1,5 @@
 package es.daw.jakarta.repository;
 
-public interface GenericDAO {
+public interface GenericDAO <Producto, Integer> {
+
 }

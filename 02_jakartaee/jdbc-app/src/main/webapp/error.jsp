@@ -1,16 +1,35 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: koes
-  Date: 30/9/25
-  Time: 20:41
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Error</title>
+    <style>
+        html {
+            font-size: 1vw;
+        }
+
+        div {
+            font-size: 2rem;
+            color: #49708f;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            font-size: 3rem;
+            padding: 50px;
+            color: blueviolet;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<p>${error}</p>
+<a href='<%=request.getContextPath()%>/index.jsp'>Volver</a>
+</body>
 </html>
