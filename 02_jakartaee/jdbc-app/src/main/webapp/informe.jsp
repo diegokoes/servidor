@@ -29,7 +29,10 @@
 <div class="container mt-5">
     <h2 class="mb-4 text-primary">📋 Productos disponibles</h2>
 
-
+    <%
+        List<Producto> productos = (List<Producto>) request.getAttribute("productos");
+        if (productos != null && !productos.isEmpty()) {
+           %>
     <div class="table-responsive">
         <table class="table table-bordered table-custom">
             <thead class="table-dark">
@@ -41,16 +44,21 @@
             </tr>
             </thead>
             <tbody>
-
-
+            <%
+                for (Producto producto : productos) {
+            %>
+            <tr>
+                <td><%= producto.getCodigo() %></td>
+                <td><%= producto.getNombre() %></td>
+                <td><%= producto.getPrecio() %></td>
+                <td><%= producto.getCodigo_fabricante() %></td>
+            </tr>
+            <%}%>
             </tbody>
         </table>
     </div>
-
     <%
-        }
-        else
-        {
+        } else {
     %>
     <div class="alert alert-warning" role="alert">
         ⚠️ No hay productos disponibles
@@ -58,6 +66,8 @@
     <%
         }
     %>
+
+
 </div>
 
 <!-- Bootstrap JS (opcional, solo si usas componentes dinámicos) -->

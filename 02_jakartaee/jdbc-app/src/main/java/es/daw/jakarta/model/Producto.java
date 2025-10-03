@@ -3,7 +3,7 @@ package es.daw.jakarta.model;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Producto implements Serializable {
+public class Producto implements Serializable, Comparable<Producto>{
 
     private Integer codigo;
     private String nombre;
@@ -60,5 +60,10 @@ public class Producto implements Serializable {
                 ", precio=" + precio +
                 ", codigo_fabricante=" + codigo_fabricante +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Producto o) {
+        return 0;
     }
 }
