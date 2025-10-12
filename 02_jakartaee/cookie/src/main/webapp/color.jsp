@@ -11,6 +11,11 @@
     <title>Elige color de fondo</title>
 
 </head>
+<style>
+    body {
+        background-color: ${cookie.color.value};
+    }
+</style>
 <body>
 <h1>Color de fondo:</h1>
 <form method="post" action="cookie-color-fondo">
@@ -18,7 +23,7 @@
         Color:
     </label>
 
-    <input id="color" type="color" name="color" value="<%=color%>">
+    <input id="color" type="color" name="color" value="${cookie.color.value}">
     <button type="submit">Guardar</button>
 </form>
 <p>

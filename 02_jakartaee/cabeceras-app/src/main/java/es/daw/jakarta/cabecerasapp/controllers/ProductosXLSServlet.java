@@ -12,14 +12,19 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet({"/productos.xls", "/productos.html"})
+@WebServlet({"/productos.xls", "/productos.html","/productos"})
 public class ProductosXLSServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ProductoService productoService = new ProductoServiceImpl();
 
         List<Producto> productos = productoService.findAll();
-        // pendiente controlar si exporta a XLS
+    if (req.getServletPath().equals("/productos.xls")) {
+        resp.setContentType("application/vnd.ms-excel");
+        resp.setHeader("Content-Disposition", "attachment; filename=\"productos.xls\"");
+
+    }
+
 
         req.setAttribute("productos", productos);
         getServletContext().getRequestDispatcher("/productos.jsp").forward(req, resp);

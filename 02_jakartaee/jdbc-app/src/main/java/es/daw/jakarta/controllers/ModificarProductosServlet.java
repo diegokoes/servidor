@@ -15,6 +15,7 @@ public class ModificarProductosServlet extends HttpServlet {
     private static final Logger LOGGER = Logger.getLogger(ModificarProductosServlet.class.getName());
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
+    String tipoOperacion = request.getAttribute("operacion").toString();
 
     }
 }

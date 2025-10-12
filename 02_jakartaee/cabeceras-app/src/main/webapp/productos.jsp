@@ -30,6 +30,7 @@
     <tbody>
     <%
         List<Producto> productos = (List<Producto>) request.getAttribute("productos");
+        if(productos!=null) {
         for (Producto p : productos) {%>
     <tr>
         <td><%=p.getId()%>
@@ -38,7 +39,7 @@
         <td><%=p.getTipo()%></td>
         <td><%=p.getPrecio()%></td>
     </tr>
-    <%}%>
+    <%}}%>
 
 
     </tbody>

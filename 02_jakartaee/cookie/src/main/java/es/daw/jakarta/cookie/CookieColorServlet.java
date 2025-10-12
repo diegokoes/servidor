@@ -2,34 +2,27 @@ package es.daw.jakarta.cookie;
 
 import java.io.*;
 
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 @WebServlet("/cookie-color-fondo")
 public class CookieColorServlet extends HttpServlet {
-    private String message;
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-    private static final String COOKIE_NAME = "colorFondo";
-
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Crear una cookie
-        Cookie cookie = new Cookie("colorFondo", "#ffffff");
-        cookie.setMaxAge(0);
-        response.addCookie(cookie);
-
+        Cookie color = new Cookie("color", request.getParameter("color"));
+        response.addCookie(color);
+        response.sendRedirect("index.jsp");
+        return;
 
     }
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Crear una cookie
-        Cookie cookie = new Cookie("colorFondo", "#ffffff");
-        cookie.setMaxAge(0);
-        response.addCookie(cookie);
-
-
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Cookie color = new Cookie("color", "");
+        color.setMaxAge(0);
+        resp.addCookie(color);
+        resp.sendRedirect("index.jsp");
+        return;
     }
 }
