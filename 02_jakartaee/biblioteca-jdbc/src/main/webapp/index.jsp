@@ -58,7 +58,8 @@
             <div class="card-body">
                 <h4 class="card-title text-primary">📖 Libros</h4>
                 <p class="card-text text-muted">Consulta, añade o edita libros de la biblioteca.</p>
-                <a href="<%= request.getContextPath() %>/books/list" class="btn btn-primary btn-custom">Gestionar libros</a>
+                <a href="<%= request.getContextPath() %>/libros/listar"
+                   class="btn btn-primary btn-custom">Gestionar libros</a>
             </div>
         </div>
 
@@ -67,7 +68,8 @@
             <div class="card-body">
                 <h4 class="card-title text-success">✍️ Autores</h4>
                 <p class="card-text text-muted">Administra el catálogo de autores registrados.</p>
-                <a href="<%= request.getContextPath() %>/authors/list" class="btn btn-success btn-custom">Gestionar autores</a>
+                <a href="<%= request.getContextPath() %>/autores/listar"
+                   class="btn btn-success btn-custom">Gestionar autores</a>
             </div>
         </div>
     </div>
