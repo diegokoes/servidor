@@ -13,6 +13,10 @@ import java.util.*;
 public class ValidationServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        List<String> fruits = Optional.ofNullable(req.getParameterValues(
+                "fruits"))
+                .map(Arrays::asList)
+                .orElseGet(Collections::emptyList);, what , what do qweqedweqweqeeqweqqweqwwee
         Optional<String> nombre = Optional.of(req.getParameter("username"));
         Optional<String>  password = Optional.of(req.getParameter("password"));
         Optional<String>  email = Optional.of(req.getParameter("email"));
@@ -33,5 +37,6 @@ public class ValidationServlet extends HttpServlet {
         if(password.isBlank()) errores.put("password","Elige un rol");
         if(!password.matches("[a-zA-Z")) errores.put("password","tiene que " +
                 "cumplir el patron");
+
     }
 }
