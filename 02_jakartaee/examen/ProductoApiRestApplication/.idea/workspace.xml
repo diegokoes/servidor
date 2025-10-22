@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a516b1eb-9e45-4b81-a6a5-2f9f271224c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../biblioteca-jdbc/src/main/webapp/autores/autores.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteca-jdbc/src/main/webapp/autores/formautor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteca-jdbc/src/main/webapp/libros/formlibro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteca-jdbc/src/main/webapp/libros/libros.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/controllers/ListarServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/controllers/ModificarCrearServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/model/Autor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/model/Libro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/repository/AutorDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/repository/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/repository/GenericDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/repository/LibroDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/java/es/daw/jakarta/bibliotecajdbc/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/resources/JDBC.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/webapp/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca-jdbc/src/main/webapp/lista.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/src/main/java/es/daw/biblioteca2/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../biblioteca2/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/ActualizarProductoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/BorrarFabricanteServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/BorrarProductoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/CrearProductoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/EditarProductoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/ListarFabricantesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/ListarProductosServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/controllers/PreferenciasServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/model/Fabricante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/repository/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/repository/FabricanteDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/repository/GenericDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/repository/ProductoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/java/es/daw/jakarta/jdbcapp/util/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/resources/JDBC.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/editarProducto.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/fabricantes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/formularioProducto.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/productos.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacro/simulacro/src/main/webapp/welcome.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="34QO5qemtJfrjv4vO9j8yuumjTq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/koes/programming/servidor/03_spring/ProductoApiRestApplication",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ProductoApiRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ProductoApiRestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="es.daw.productoapirestapplication.ProductoApiRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a516b1eb-9e45-4b81-a6a5-2f9f271224c0" name="Changes" comment="" />
+      <created>1761142150301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761142150301</updated>
+      <workItem from="1761142151513" duration="28000" />
+      <workItem from="1761142194631" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
