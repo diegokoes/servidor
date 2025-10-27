@@ -40,10 +40,24 @@
     </style>
 </head>
 <body>
+<%
+    String tipoUsuario= "";
+    Cookie[] cookies = request.getCookies();
+    if (cookies != null){
+        for (Cookie c : cookies) {
+            if (c.getName().equals("tipoUser")) {
+                 tipoUsuario = c.getValue();
+            }
+        }
+    }
+
+
+%>
 <div class="container mt-5">
 
     <section class="hero">
         <h1>LogísticaApp</h1>
+        <h1><%=tipoUsuario%></h1>
         <p class="lead text-secondary">Gestión sencilla de productos y fabricantes</p>
     </section>
 

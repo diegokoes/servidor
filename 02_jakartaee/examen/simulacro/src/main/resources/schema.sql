@@ -12,6 +12,14 @@ CREATE TABLE IF NOT EXISTS producto (
     FOREIGN KEY (codigo_fabricante) REFERENCES fabricante(codigo)
     );
 
+CREATE TABLE IF NOT EXISTS usuario (
+    username VARCHAR(255) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL,
+    admin BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+
+
 -- Insertamos datos en la tabla fabricante
 INSERT INTO fabricante (codigo, nombre) VALUES (1, 'Asus');
 INSERT INTO fabricante (codigo, nombre) VALUES (2, 'Lenovo');
@@ -35,3 +43,6 @@ INSERT INTO producto (codigo, nombre, precio, codigo_fabricante) VALUES (8, 'Por
 INSERT INTO producto (codigo, nombre, precio, codigo_fabricante) VALUES (9, 'Portátil Ideapd 320', 444, 2);
 INSERT INTO producto (codigo, nombre, precio, codigo_fabricante) VALUES (10, 'Impresora HP Deskjet 3720', 59.99, 3);
 INSERT INTO producto (codigo, nombre, precio, codigo_fabricante) VALUES (11, 'Impresora HP Laserjet Pro M26nw', 180, 3);
+
+INSERT INTO usuario (username, password) VALUES ('normaluser', '123123');
+INSERT INTO usuario (username, password, admin) VALUES ('adminuser', '666666', true);
