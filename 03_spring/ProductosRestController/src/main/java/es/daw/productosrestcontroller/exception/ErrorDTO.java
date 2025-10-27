@@ -1,18 +1,20 @@
-package es.daw.productosrestcontroller.dto;
+package es.daw.productosrestcontroller.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.time.LocalDateTime;
+import java.util.Map;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class ErrorDTO {
     private String message;
-    private String details;
-    private Date timeStamp;
+    // Poner un Map con campo-valor
+    private Map<String,String> details;
+    private LocalDateTime timeStamp;
 
 
 

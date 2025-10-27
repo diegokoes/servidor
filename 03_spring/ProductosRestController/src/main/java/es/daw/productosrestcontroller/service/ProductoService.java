@@ -19,6 +19,7 @@ public class ProductoService {
     private final ProductoRepository productoRepository;
     private final ProductoMapper productoMapper;
 
+
     public Optional<List<ProductoDTO>> findAll() {
         List<Producto> productosEntities = productoRepository.findAll();
         return Optional.ofNullable(productoMapper.toProductoDTOList(productosEntities));
@@ -31,13 +32,27 @@ public class ProductoService {
 
     public Optional<ProductoDTO> save(ProductoDTO productoDTO) {
         Producto productoEntity = productoMapper.toEntity(productoDTO);
-        Optional<Fabricante>  fabOpt =fabricanteRepository.findById(1);
-        if(!fabOpt.isPresent()){
+        Optional<Fabricante> fabOpt = fabricanteRepository.findById(1);
+        if (!fabOpt.isPresent()) {
             return Optional.empty();
         }
         productoEntity.setFabricante(fabOpt.get());
         productoRepository.save(productoEntity);
         return Optional.ofNullable(productoMapper.toProductoDTO(productoEntity));
     }
+
+    public boolean delete(String codigo) {
+        Optional<Producto> productoEntity =
+                Optional.ofNullable(productoRepository.findByCodigo(codigo));
+
+        if (productoEntity.isPresent()) {
+            productoRepository.deleteByCodigo(codigo);
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
 
 }
