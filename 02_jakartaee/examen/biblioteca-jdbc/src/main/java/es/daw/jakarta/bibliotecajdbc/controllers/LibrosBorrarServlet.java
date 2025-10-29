@@ -37,7 +37,7 @@ public class LibrosBorrarServlet extends HttpServlet {
                 daoLibro.delete(Integer.parseInt(idParam));
             } catch (SQLException e) {
                 throw new ServletException("Error borrando libro", e);
-            }
+        }
         }
         resp.sendRedirect(req.getContextPath() + "/libros/listar");
     }

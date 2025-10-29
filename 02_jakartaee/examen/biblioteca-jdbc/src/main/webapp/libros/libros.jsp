@@ -91,6 +91,23 @@
                     <% } %>
                 </div>
             </div>
+            <div class="card mt-3">
+                <form action="<%= request.getContextPath() %>/libros/buscar" method="get">
+                        <p >Campo por el que buscar</p>
+                    <label class="form-check-label" for="titulo">Titulo
+                    </label>
+                    <input id="titulo" type="radio" name="busqueda"
+                           value="titulo"
+                           checked/>
+                    <label class="form-check-label" for="autor">Autor
+                    </label>
+                    <input id="autor" type="radio" name="busqueda"
+                           value="autor"/>
+                    <label for="textoFiltro">Introduce tu búsqueda</label>
+                    <input type="text" id="textoFiltro" name="textoFiltro"/><br>
+                    <input type="submit" value="Buscar"/>
+                </form>
+            </div>
             <div class="text-center mt-4">
                 <a class="btn btn-secondary" href="<%= request.getContextPath() %>">Volver</a>
             </div>
